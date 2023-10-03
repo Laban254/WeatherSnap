@@ -1,4 +1,6 @@
 # WeatherSnap Chrome Extension
+![Screenshot from 2023-10-03 15-58-04](https://github.com/Laban254/WeatherSnap/assets/64686919/7510a426-0c2c-4329-a83d-9a93d266859e)
+
 
 WeatherSnap is a simple and intuitive Chrome extension that provides you with up-to-date weather information right in your browser. With WeatherSnap, you can stay informed about the current weather conditions, temperature, humidity, and more, all at a glance.
 
@@ -8,16 +10,17 @@ WeatherSnap is a simple and intuitive Chrome extension that provides you with up
 - **Adaptive Design:** WeatherSnap adapts to your system's color scheme, seamlessly transitioning between light and dark modes.
 - **Easy Installation:** Installing WeatherSnap is quick and easy. Just follow the simple steps below to get started.
 
-## Installation
+## Test  Extension:
 
-1. Visit the [Chrome Web Store](https://chrome.google.com/webstore) and search for "WeatherSnap."
-2. Click the "Add to Chrome" button to install the extension.
-3. Once installed, WeatherSnap will appear as an icon in your Chrome toolbar.
+- Open Chrome and navigate to chrome://extensions/.
+- Enable "Developer mode."
+- Click "Load unpacked" and select the folder containing your extension files.
+- Your extension icon should appear in the Chrome toolbar.
 
 ## How to Use
 
 1. Click the WeatherSnap icon in your Chrome toolbar to open the extension.
-2. WeatherSnap will display the current weather conditions, temperature, and humidity.
+2. WeatherSnap will display the current weather location, temperature, and humidity.
 3. You can also use the extension to bookmark and save links for future reference.
 
 ## Configuration
