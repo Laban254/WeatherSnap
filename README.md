@@ -19,6 +19,8 @@ WeatherSnap is a simple and intuitive Chrome extension that provides you with up
   To get the folder on your terminal run
   ``` git clone https://github.com/Laban254/WeatherSnap ```
 - Your extension icon should appear in the Chrome toolbar.
+  
+![Screenshot from 2023-10-03 16-02-55](https://github.com/Laban254/WeatherSnap/assets/64686919/b403fc8b-9065-4132-88f3-d3339addf09c)
 
 ## How to Use
 
