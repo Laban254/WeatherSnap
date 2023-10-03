@@ -1,0 +1,103 @@
+/* Define CSS variables for light and dark mode backgrounds and text colors */
+:root {
+    --light-background: #ffffff; /* Light mode background color */
+    --dark-background: #333333; /* Dark mode background color */
+    --light-text-color: black; /* Light mode text color */
+    --dark-text-color: white; /* Dark mode text color */
+}
+
+body {
+    width: 300px;
+    height: 300px;
+    background-color: var(--light-background); /* Use the light mode background color by default */
+    color: var(--light-text-color); /* Use the light mode text color by default */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transitions for background and text color changes */
+}
+
+/* Use the prefers-color-scheme media query to switch background and text color */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--dark-background); /* Use the dark mode background color when dark mode is preferred */
+        color: var(--dark-text-color); /* Use the dark mode text color when dark mode is preferred */
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sun__rise-img, .sun__set-img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.sun__rise-img:hover, .sun__set-img:hover {
+    transform: scale(1.2);
+}
+
+.sun {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sun__rise, .sun__set {
+    display: inherit;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.sun__rise:hover, .sun__set:hover {
+    transform: translateX(5px);
+}
+
+.sun__rise-text, .sun__set-text {
+    padding-left: 15px;
+    font-size: 13px;
+    transition: font-size 0.3s ease;
+}
+
+.sun__rise-text:hover, .sun__set-text:hover {
+    font-size: 14px;
+}
+
+.location {
+    font-size: 25px;
+    line-height: 10px;
+    transition-property: var(--dark-background);
+}
+
+.temperature-humidity {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.temperature-humidity__temperature-text::after {
+    content: ' *C';
+}
+
+.temperature-humidity__humidity-text {
+    padding-left: 20px;
+}
+
+.temperature-humidity__humidity-text::after {
+    content: '%';
+}
+
+.temperature-humidity__humidity-text::before {
+    content: 'humidity: ';
+}
+
+.description__image {
+    padding-right: 4px;
+}
+
+.description {
+    line-height: 4px;
+    padding-right: 7px;
+}

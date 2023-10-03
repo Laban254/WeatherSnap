@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "weather",
+    "version": "1.0.1",
+
+    "author": "Labanrotich6544@gmail.com",
+
+    "description": "Simple weather extension",
+    "icons": {
+        "16": "images/icon16.png",
+        "32": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    "action": {
+        "default_popup": "./popup.html"
+    },
+
+    "permissions": ["geolocation"]
+}
