@@ -15,6 +15,9 @@ WeatherSnap is a simple and intuitive Chrome extension that provides you with up
 - Open Chrome and navigate to chrome://extensions/.
 - Enable "Developer mode."
 - Click "Load unpacked" and select the folder containing your extension files.
+  
+  To get the folder on your terminal run
+  ``` git clone https://github.com/Laban254/WeatherSnap ```
 - Your extension icon should appear in the Chrome toolbar.
 
 ## How to Use
